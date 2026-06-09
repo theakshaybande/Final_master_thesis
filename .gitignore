@@ -1,0 +1,112 @@
+# Raw and external data
+data/
+datasets/
+raw_data/
+external_data/
+downloaded_data/
+final_data/
+Final Data/
+Data/
+**/data/
+**/datasets/
+final_dataset/raw/
+final_dataset/processed/
+final_dataset/features/
+
+# Large tabular, binary, archive, and serialized data
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Notebook checkpoints and exports
+.ipynb_checkpoints/
+*.html
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+thesis_env/
+MastersThesis/
+.conda/
+.thesis-env/
+
+# Outputs, reports, experiment artifacts, and temporary files
+outputs/
+output/
+results/
+reports/results/
+reports/dataset_validation/
+reports/locomotif_initial_study/
+figures/generated/
+tables/generated/
+logs/
+wandb/
+mlruns/
+checkpoints/
+models/
+artifacts/
+cache/
+tmp/
+temp/
+
+# Large report formats
+*.pdf
+*.pptx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Secrets and credentials
+.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+token.json
+
+# Keep reproducibility and source files visible
+!README.md
+!requirements.txt
+!environment.yml
+!pyproject.toml
+!setup.cfg
+!notebooks/
+!notebooks/**/*.ipynb
+!src/
+!src/**/*.py
+!scripts/
+!scripts/**/*.py
+!configs/
+!configs/**/*.yaml
+!configs/**/*.yml
+!docs/
+!docs/**/*.md
+!references/
+!references/**/*.bib
+!.gitkeep
