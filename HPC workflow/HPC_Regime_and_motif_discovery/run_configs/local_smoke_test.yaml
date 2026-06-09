@@ -1,0 +1,54 @@
+seed: 20260609
+local_smoke_suffix: _LOCAL_SMOKE_TEST
+
+data:
+  allowed_assets: null
+  allowed_frequencies: null
+  local_allowed_frequencies: ["1h"]
+  local_max_assets: 2
+  local_max_files: 2
+  local_start_date: "2021-01-01"
+  local_end_date: "2021-03-31"
+  local_max_rows: 1500
+
+quantile:
+  rolling_windows: [60]
+  regime_counts: [3]
+  default_regime_count: 3
+  default_rolling_window: 60
+
+feature_selection:
+  local_max_features: 6
+
+hmm:
+  states: [2, 3]
+  n_iter: 40
+  covariance_type: diag
+  tol: 0.001
+  min_rows: 250
+
+matrix_profile:
+  top_k: 3
+  min_segment_length: 96
+  exclusion_zone_factor: 0.5
+  univariate_channels: ["close", "log_return", "rolling_volatility_60"]
+  default_windows: [32, 64]
+  frequency_windows:
+    "1h": [32, 64]
+    "1d": [20, 60]
+  run_univariate: true
+  run_multivariate: true
+  use_gpu_if_available: false
+  local_max_conditioned_segments_per_group: 2
+
+locomotif:
+  min_segment_length: 160
+  import_timeout_seconds: 20
+  local_max_points: 300
+  parameter_grid:
+    - {l_min: 24, l_max: 60, rho: 0.65, nb: 2, overlap: 0.2, warping: true}
+  local_max_conditioned_segments_per_group: 2
+
+plotting:
+  max_points_per_figure: 3000
+  max_figures_per_notebook: 24

@@ -1,0 +1,22 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+pyarrow
+fastparquet
+tqdm
+joblib
+psutil
+pyyaml
+hmmlearn
+stumpy
+numba
+jupyter
+nbconvert
+
+# Optional if available:
+# dtai-locomotif
+# cupy / CUDA packages if GPU Matrix Profile is used
+

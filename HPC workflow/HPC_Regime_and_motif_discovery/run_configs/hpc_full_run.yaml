@@ -1,0 +1,53 @@
+seed: 20260609
+local_smoke_suffix: _LOCAL_SMOKE_TEST
+
+data:
+  allowed_assets: null
+  allowed_frequencies: null
+  max_files: null
+
+quantile:
+  rolling_windows: [30, 60, 240]
+  regime_counts: [2, 3, 4]
+  default_regime_count: 3
+  default_rolling_window: 60
+
+hmm:
+  states: [2, 3, 4]
+  n_iter: 250
+  covariance_type: diag
+  tol: 0.0005
+  min_rows: 500
+
+matrix_profile:
+  top_k: 10
+  min_segment_length: 512
+  exclusion_zone_factor: 0.5
+  univariate_channels: ["close", "log_return", "rolling_volatility_60"]
+  default_windows: [32, 64, 128, 256, 512]
+  frequency_windows:
+    "1m": [60, 120, 240, 480, 1440]
+    "5m": [60, 120, 240, 480]
+    "15m": [32, 64, 128, 256]
+    "1h": [24, 48, 72, 168, 336]
+    "1d": [20, 60, 120, 252]
+    "daily": [20, 60, 120, 252]
+  run_univariate: true
+  run_multivariate: true
+  use_gpu_if_available: true
+  local_max_conditioned_segments_per_group: null
+
+locomotif:
+  min_segment_length: 512
+  import_timeout_seconds: 120
+  local_max_points: null
+  hpc_max_points: null
+  parameter_grid:
+    - {l_min: 24, l_max: 72, rho: 0.65, nb: 5, overlap: 0.2, warping: true}
+    - {l_min: 48, l_max: 168, rho: 0.65, nb: 5, overlap: 0.2, warping: true}
+    - {l_min: 72, l_max: 336, rho: 0.70, nb: 5, overlap: 0.2, warping: true}
+  local_max_conditioned_segments_per_group: null
+
+plotting:
+  max_points_per_figure: 10000
+  max_figures_per_notebook: 200
