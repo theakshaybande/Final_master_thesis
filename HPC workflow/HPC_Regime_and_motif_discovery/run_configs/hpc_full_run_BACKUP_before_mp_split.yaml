@@ -2,8 +2,8 @@ seed: 20260609
 local_smoke_suffix: _LOCAL_SMOKE_TEST
 
 data:
-  allowed_assets: ["BTCUSDT", "ETHUSDT"]
-  allowed_frequencies: ["15m", "1h"]
+  allowed_assets: null
+  allowed_frequencies: null
   max_files: null
 
 quantile:
@@ -26,8 +26,12 @@ matrix_profile:
   univariate_channels: ["close", "log_return", "rolling_volatility_60"]
   default_windows: [32, 64, 128, 256, 512]
   frequency_windows:
+    "1m": [60, 120, 240, 480, 1440]
+    "5m": [60, 120, 240, 480]
     "15m": [32, 64, 128, 256]
     "1h": [24, 48, 72, 168, 336]
+    "1d": [20, 60, 120, 252]
+    "daily": [20, 60, 120, 252]
   run_univariate: true
   run_multivariate: true
   use_gpu_if_available: true
