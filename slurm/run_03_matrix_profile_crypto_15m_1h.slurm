@@ -2,9 +2,9 @@
 #SBATCH --job-name=thesis_mp_15m_1h
 #SBATCH --partition=research
 #SBATCH --nodes=1
-#SBATCH --cpus-per-task=16
-#SBATCH --mem=128G
-#SBATCH --time=16:00:00
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=192G
+#SBATCH --time=24:00:00
 #SBATCH --output=logs/thesis_mp_15m_1h_%j.out
 #SBATCH --error=logs/thesis_mp_15m_1h_%j.err
 
@@ -13,6 +13,11 @@ set -euo pipefail
 cd "$HOME/Final_master_thesis"
 
 source .thesis-env/bin/activate
+
+export NUMBA_NUM_THREADS=${SLURM_CPUS_PER_TASK}
+export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
+export MKL_NUM_THREADS=${SLURM_CPUS_PER_TASK}
+export OPENBLAS_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 
 echo "Job started at: $(date)"
 echo "Node: $(hostname)"
