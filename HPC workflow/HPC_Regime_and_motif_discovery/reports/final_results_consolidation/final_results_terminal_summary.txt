@@ -1,0 +1,63 @@
+FINAL RESULTS CONSOLIDATION
+Output folder: /home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/reports/final_results_consolidation
+
+Files created:
+- FINAL_RESULTS_FOR_CHATGPT.md
+- FINAL_RESULTS_FOR_PRESENTATION.md
+- FINAL_RESULTS_FOR_THESIS_LATEX.md
+- final_results_key_numbers.csv
+- final_results_table_inventory.csv
+- final_results_figure_recommendations.csv
+- final_results_terminal_summary.txt
+- selected_final_figures/
+
+Key numbers:
+- quantile total rows: 73,097,388
+- HMM total rows: 8,121,932
+- quantile failure rows: 0
+- HMM failure rows: 0
+- Matrix Profile motif rows: 81,987
+- Matrix Profile evaluation rows: 1,384
+- Matrix Profile runtime rows: 368
+- Matrix Profile figure count: 84
+- Matrix Profile agnostic rows: 720
+- Matrix Profile conditioned rows: 81,267
+- Matrix Profile GPU true rows: 0
+- Matrix Profile GPU false rows: 81,987
+- LoCoMotif motif rows: 18,147
+- LoCoMotif evaluation rows: 38
+- LoCoMotif runtime rows: 662
+- LoCoMotif failure rows: not available
+- LoCoMotif figure count: 6
+- selected final figure count: 18
+
+Top findings:
+- Saved regime and motif results were summarized without rerunning notebooks.
+- Agnostic and conditioned motif outputs are reported separately where available.
+- Missing expected input files: 1.
+
+Selected figures:
+- 01_BTCUSDT_15m_quantile_2_rolling_240_transition_heatmap.png
+- 01_BTCUSDT_15m_quantile_2_rolling_240_close_by_regime.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_close_w128_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_low_vol_close_w128_profile.png
+- 03_BTCUSDT_15m_agnostic_none_all_close_w128_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_close_w256_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_close_w32_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_close_w64_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_log_return_w128_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_log_return_w256_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_log_return_w32_overlay.png
+- 03_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_log_return_w64_overlay.png
+- 04_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_l24_72_intervals.png
+- 04_BTCUSDT_15m_conditioned_quantile_2_rolling_240_low_vol_l24_72_intervals.png
+- 04_BTCUSDT_15m_agnostic_none_all_l24_72_intervals.png
+- 04_BTCUSDT_15m_conditioned_quantile_2_rolling_240_high_vol_l48_168_intervals.png
+- 04_BTCUSDT_15m_conditioned_quantile_2_rolling_240_low_vol_l48_168_intervals.png
+- 04_BTCUSDT_15m_agnostic_none_all_l48_168_intervals.png
+
+Caveats:
+- Motif counts do not establish significance, causality, or profitability.
+- Matrix Profile and LoCoMotif output rows are not directly comparable.
+- The quantile regime outputs store `rolling_volatility_60` as the actual volatility column across all quantile method identifiers. Therefore, quantile regimes should be interpreted as 60-period rolling-volatility regimes with different regime-count granularities rather than as separate 30/60/240 volatility-horizon experiments.
+- LoCoMotif is reported as a controlled subset experiment rather than a full-scale benchmark.
