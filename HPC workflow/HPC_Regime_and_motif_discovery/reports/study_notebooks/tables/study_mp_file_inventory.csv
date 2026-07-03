@@ -1,0 +1,5 @@
+file,path,exists,rows,columns,useful_columns
+motif_results,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/matrix_profile/matrix_profile_motif_results.parquet,True,81987,33,"asset, frequency, mode, regime_method, regime_label, feature_set, profile_type, window_length, motif_distance, runtime_seconds, used_gpu, status"
+evaluation,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/matrix_profile/matrix_profile_evaluation.parquet,True,1384,16,"asset, frequency, mode, regime_method, regime_label, feature_set, window_length, runtime_seconds, method, number_of_motifs, mean_motif_distance_or_score, median_motif_distance"
+runtime,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/matrix_profile/matrix_profile_runtime.parquet,True,368,7,"asset, frequency, mode, regime_method, profile_type, window_length, runtime_seconds"
+profiles,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/matrix_profile/matrix_profile_profiles.parquet,True,0,0,

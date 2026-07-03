@@ -1,0 +1,8 @@
+Aspect,Matrix Profile,LoCoMotif
+Motif type,fixed-length subsequences,variable/local-constrained intervals
+Scale completed,full controlled benchmark,controlled subset
+Result rows,81987,18147
+Evaluation rows,1384,38
+Runtime rows,368,662
+Strength,scalable baseline,flexible variable-length motif structure
+Limitation,fixed-length windows,more computationally constrained

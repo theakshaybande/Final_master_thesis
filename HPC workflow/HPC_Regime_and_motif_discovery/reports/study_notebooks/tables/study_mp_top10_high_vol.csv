@@ -1,0 +1,11 @@
+asset,frequency,mode,regime_method,regime_label,feature_set,profile_type,window_length,motif_rank,motif_start_1,motif_start_2,motif_timestamp_1,motif_timestamp_2,motif_distance,segment_id,used_gpu
+BTCUSDT,1h,conditioned,quantile_3_rolling_30,high_vol,rolling_volatility_60,univariate,24,1,1174,930,2021-02-07 22:00:00+00:00,2021-01-28 18:00:00+00:00,0.18948450877881706,high_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_3_rolling_60,high_vol,rolling_volatility_60,univariate,24,1,1174,930,2021-02-07 22:00:00+00:00,2021-01-28 18:00:00+00:00,0.18948450877881706,high_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_3_rolling_240,high_vol,rolling_volatility_60,univariate,24,1,1174,930,2021-02-07 22:00:00+00:00,2021-01-28 18:00:00+00:00,0.18948450877881706,high_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_2_rolling_30,high_vol,rolling_volatility_60,univariate,24,1,1033,1277,2021-01-28 18:00:00+00:00,2021-02-07 22:00:00+00:00,0.18948450877885925,high_vol_0005,False
+BTCUSDT,1h,conditioned,quantile_2_rolling_240,high_vol,rolling_volatility_60,univariate,24,1,1033,1277,2021-01-28 18:00:00+00:00,2021-02-07 22:00:00+00:00,0.18948450877885925,high_vol_0005,False
+BTCUSDT,1h,conditioned,quantile_2_rolling_60,high_vol,rolling_volatility_60,univariate,24,1,1033,1277,2021-01-28 18:00:00+00:00,2021-02-07 22:00:00+00:00,0.18948450877885925,high_vol_0005,False
+BTCUSDT,15m,conditioned,quantile_2_rolling_30,high_vol,rolling_volatility_60,univariate,32,1,4234,3258,2021-02-08 10:30:00+00:00,2021-01-29 06:30:00+00:00,0.20998712076446366,high_vol_0011,False
+BTCUSDT,15m,conditioned,quantile_2_rolling_240,high_vol,rolling_volatility_60,univariate,32,1,4234,3258,2021-02-08 10:30:00+00:00,2021-01-29 06:30:00+00:00,0.20998712076446366,high_vol_0011,False
+BTCUSDT,15m,conditioned,quantile_2_rolling_60,high_vol,rolling_volatility_60,univariate,32,1,4234,3258,2021-02-08 10:30:00+00:00,2021-01-29 06:30:00+00:00,0.20998712076446366,high_vol_0011,False
+BTCUSDT,15m,conditioned,quantile_3_rolling_60,high_vol,rolling_volatility_60,univariate,32,1,430,1406,2021-01-29 06:30:00+00:00,2021-02-08 10:30:00+00:00,0.2099871207644975,high_vol_0005,False

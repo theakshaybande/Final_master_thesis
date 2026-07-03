@@ -1,0 +1,9 @@
+asset,frequency,mode,rows
+ETHUSDT,15m,conditioned,34071
+BTCUSDT,15m,conditioned,30633
+BTCUSDT,1h,conditioned,8913
+ETHUSDT,1h,conditioned,7650
+ETHUSDT,1h,agnostic,200
+BTCUSDT,1h,agnostic,200
+BTCUSDT,15m,agnostic,160
+ETHUSDT,15m,agnostic,160

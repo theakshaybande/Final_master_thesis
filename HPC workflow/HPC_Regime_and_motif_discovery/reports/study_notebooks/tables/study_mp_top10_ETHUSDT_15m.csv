@@ -1,0 +1,11 @@
+asset,frequency,mode,regime_method,regime_label,feature_set,profile_type,window_length,motif_rank,motif_start_1,motif_start_2,motif_timestamp_1,motif_timestamp_2,motif_distance,segment_id,used_gpu
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,1,126827,131352,2023-08-15 16:45:00+00:00,2023-10-01 20:00:00+00:00,0.08618586718346903,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,2,12429,19511,2020-05-09 22:30:00+00:00,2020-07-22 20:30:00+00:00,0.09131024827847206,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,3,12468,1804,2020-05-10 08:15:00+00:00,2020-01-19 19:00:00+00:00,0.10449708422363627,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,4,131334,153594,2023-10-01 15:30:00+00:00,2024-05-20 12:30:00+00:00,0.10482905878738029,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,5,14747,106364,2020-06-03 02:00:00+00:00,2023-01-14 11:45:00+00:00,0.11052482385727215,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,6,179351,108133,2025-02-12 19:45:00+00:00,2023-02-01 22:00:00+00:00,0.12166304029613392,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,7,125412,106307,2023-07-31 23:00:00+00:00,2023-01-13 21:30:00+00:00,0.1317585614036181,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,8,119295,140375,2023-05-29 05:45:00+00:00,2024-01-03 19:45:00+00:00,0.1338753847006959,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,9,131391,124579,2023-10-02 05:45:00+00:00,2023-07-23 06:45:00+00:00,0.13618467789417166,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,10,94002,101987,2022-09-07 17:15:00+00:00,2022-11-29 21:30:00+00:00,0.1427984251979934,full_series,False

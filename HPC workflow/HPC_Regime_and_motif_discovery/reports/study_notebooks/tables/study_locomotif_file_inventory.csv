@@ -1,0 +1,6 @@
+file,path,exists,rows,columns
+motif_results,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/locomotif/locomotif_motif_results.parquet,True,18147,27
+evaluation,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/locomotif/locomotif_evaluation.parquet,True,38,18
+runtime,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/locomotif/locomotif_runtime.parquet,True,662,18
+failures,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/motifs/locomotif/04_locomotif_failures.parquet,False,0,0
+figures_04_prefix,/home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/figures; /home/i6404275/Final_master_thesis/HPC workflow/HPC_Regime_and_motif_discovery/results/figures_parallel,True,6,0

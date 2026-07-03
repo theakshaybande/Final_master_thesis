@@ -1,0 +1,9 @@
+asset,frequency,method,rows,min_timestamp,max_timestamp,regime_methods,regime_labels
+BTCUSDT,15m,quantile,1892520,2020-01-01 00:00:00+00:00,2025-12-31 23:45:00+00:00,"quantile_2_rolling_240, quantile_2_rolling_30, quantile_2_rolling_60, quantile_3_rolling_240, quantile_3_rolling_30, quantile_3_rolling_60, quantile_4_rolling_240, quantile_4_rolling_30, quantile_4_rolling_60","extreme_vol, high_vol, low_vol, medium_vol"
+BTCUSDT,1h,quantile,473193,2020-01-01 00:00:00+00:00,2025-12-31 23:00:00+00:00,"quantile_2_rolling_240, quantile_2_rolling_30, quantile_2_rolling_60, quantile_3_rolling_240, quantile_3_rolling_30, quantile_3_rolling_60, quantile_4_rolling_240, quantile_4_rolling_30, quantile_4_rolling_60","extreme_vol, high_vol, low_vol, medium_vol"
+ETHUSDT,15m,quantile,1892520,2020-01-01 00:00:00+00:00,2025-12-31 23:45:00+00:00,"quantile_2_rolling_240, quantile_2_rolling_30, quantile_2_rolling_60, quantile_3_rolling_240, quantile_3_rolling_30, quantile_3_rolling_60, quantile_4_rolling_240, quantile_4_rolling_30, quantile_4_rolling_60","extreme_vol, high_vol, low_vol, medium_vol"
+ETHUSDT,1h,quantile,473193,2020-01-01 00:00:00+00:00,2025-12-31 23:00:00+00:00,"quantile_2_rolling_240, quantile_2_rolling_30, quantile_2_rolling_60, quantile_3_rolling_240, quantile_3_rolling_30, quantile_3_rolling_60, quantile_4_rolling_240, quantile_4_rolling_30, quantile_4_rolling_60","extreme_vol, high_vol, low_vol, medium_vol"
+BTCUSDT,15m,HMM,210280,2020-01-01 00:00:00+00:00,2025-12-31 23:45:00+00:00,hmm_4_states,"extreme_vol, high_vol, low_vol, medium_vol"
+BTCUSDT,1h,HMM,52577,2020-01-01 00:00:00+00:00,2025-12-31 23:00:00+00:00,hmm_4_states,"extreme_vol, high_vol, low_vol, medium_vol"
+ETHUSDT,15m,HMM,210280,2020-01-01 00:00:00+00:00,2025-12-31 23:45:00+00:00,hmm_4_states,"extreme_vol, high_vol, low_vol, medium_vol"
+ETHUSDT,1h,HMM,52577,2020-01-01 00:00:00+00:00,2025-12-31 23:00:00+00:00,hmm_4_states,"extreme_vol, high_vol, low_vol, medium_vol"

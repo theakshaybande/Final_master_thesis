@@ -1,0 +1,21 @@
+asset,frequency,mode,regime_method,regime_label,feature_set,profile_type,window_length,motif_rank,motif_start_1,motif_start_2,motif_timestamp_1,motif_timestamp_2,motif_distance,segment_id,used_gpu
+BTCUSDT,1h,agnostic,none,all,rolling_volatility_60,univariate,24,1,1692,5113,2020-03-11 19:00:00+00:00,2020-08-01 13:00:00+00:00,0.08186115979462456,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,1,126827,131352,2023-08-15 16:45:00+00:00,2023-10-01 20:00:00+00:00,0.08618586718346903,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,1,131346,1757,2023-10-01 18:30:00+00:00,2020-01-19 07:15:00+00:00,0.09054871507358775,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,2,12429,19511,2020-05-09 22:30:00+00:00,2020-07-22 20:30:00+00:00,0.09131024827847206,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,2,21326,138128,2020-08-10 18:15:00+00:00,2023-12-11 10:00:00+00:00,0.09165145448034172,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,3,12468,1804,2020-05-10 08:15:00+00:00,2020-01-19 19:00:00+00:00,0.10449708422363627,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,4,131334,153594,2023-10-01 15:30:00+00:00,2024-05-20 12:30:00+00:00,0.10482905878738029,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,5,14747,106364,2020-06-03 02:00:00+00:00,2023-01-14 11:45:00+00:00,0.11052482385727215,full_series,False
+ETHUSDT,1h,agnostic,none,all,rolling_volatility_60,univariate,24,1,30223,34525,2023-06-14 14:00:00+00:00,2023-12-10 20:00:00+00:00,0.11117373387823357,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,3,20540,124724,2020-08-02 13:45:00+00:00,2023-07-24 19:00:00+00:00,0.11264864342696476,full_series,False
+BTCUSDT,1h,agnostic,none,all,rolling_volatility_60,univariate,24,2,30223,30002,2023-06-14 14:00:00+00:00,2023-06-05 09:00:00+00:00,0.11363677059080372,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,4,14731,132794,2020-06-02 22:00:00+00:00,2023-10-16 20:30:00+00:00,0.12038615942622313,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,6,179351,108133,2025-02-12 19:45:00+00:00,2023-02-01 22:00:00+00:00,0.12166304029613392,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,5,27149,12468,2020-10-10 10:00:00+00:00,2020-05-10 08:15:00+00:00,0.12480770869314406,full_series,False
+BTCUSDT,1h,agnostic,none,all,rolling_volatility_60,univariate,24,3,25766,1241,2022-12-10 20:00:00+00:00,2020-02-21 23:00:00+00:00,0.12568322847286967,full_series,False
+BTCUSDT,1h,agnostic,none,all,rolling_volatility_60,univariate,24,4,1752,32892,2020-03-14 07:00:00+00:00,2023-10-03 19:00:00+00:00,0.12576708168895828,full_series,False
+ETHUSDT,1h,agnostic,none,all,rolling_volatility_60,univariate,24,2,32035,47930,2023-08-29 02:00:00+00:00,2025-06-21 09:00:00+00:00,0.1269334865981775,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,7,125412,106307,2023-07-31 23:00:00+00:00,2023-01-13 21:30:00+00:00,0.1317585614036181,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,6,12416,19343,2020-05-09 19:15:00+00:00,2020-07-21 02:30:00+00:00,0.1317902885830375,full_series,False
+ETHUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,8,119295,140375,2023-05-29 05:45:00+00:00,2024-01-03 19:45:00+00:00,0.1338753847006959,full_series,False

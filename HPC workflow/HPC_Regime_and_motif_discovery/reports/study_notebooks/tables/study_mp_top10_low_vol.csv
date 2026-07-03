@@ -1,0 +1,11 @@
+asset,frequency,mode,regime_method,regime_label,feature_set,profile_type,window_length,motif_rank,motif_start_1,motif_start_2,motif_timestamp_1,motif_timestamp_2,motif_distance,segment_id,used_gpu
+ETHUSDT,15m,conditioned,quantile_3_rolling_240,low_vol,rolling_volatility_60,univariate,32,1,3048,899,2023-08-16 03:15:00+00:00,2023-07-24 18:00:00+00:00,0.15923674663546197,low_vol_0023,False
+ETHUSDT,15m,conditioned,quantile_3_rolling_30,low_vol,rolling_volatility_60,univariate,32,1,3048,899,2023-08-16 03:15:00+00:00,2023-07-24 18:00:00+00:00,0.15923674663546197,low_vol_0023,False
+ETHUSDT,15m,conditioned,quantile_3_rolling_60,low_vol,rolling_volatility_60,univariate,32,1,3048,899,2023-08-16 03:15:00+00:00,2023-07-24 18:00:00+00:00,0.15923674663546197,low_vol_0023,False
+ETHUSDT,15m,conditioned,quantile_2_rolling_240,low_vol,rolling_volatility_60,univariate,32,1,3147,998,2023-08-16 03:15:00+00:00,2023-07-24 18:00:00+00:00,0.15923674663579662,low_vol_0040,False
+ETHUSDT,15m,conditioned,quantile_2_rolling_60,low_vol,rolling_volatility_60,univariate,32,1,3147,998,2023-08-16 03:15:00+00:00,2023-07-24 18:00:00+00:00,0.15923674663579662,low_vol_0040,False
+ETHUSDT,15m,conditioned,quantile_2_rolling_30,low_vol,rolling_volatility_60,univariate,32,1,3147,998,2023-08-16 03:15:00+00:00,2023-07-24 18:00:00+00:00,0.15923674663579662,low_vol_0040,False
+ETHUSDT,15m,conditioned,quantile_2_rolling_60,low_vol,rolling_volatility_60,univariate,32,2,3099,1687,2023-08-15 15:15:00+00:00,2023-07-31 22:15:00+00:00,0.1944056648487575,low_vol_0040,False
+ETHUSDT,15m,conditioned,quantile_2_rolling_240,low_vol,rolling_volatility_60,univariate,32,2,3099,1687,2023-08-15 15:15:00+00:00,2023-07-31 22:15:00+00:00,0.1944056648487575,low_vol_0040,False
+ETHUSDT,15m,conditioned,quantile_2_rolling_30,low_vol,rolling_volatility_60,univariate,32,2,3099,1687,2023-08-15 15:15:00+00:00,2023-07-31 22:15:00+00:00,0.1944056648487575,low_vol_0040,False
+ETHUSDT,15m,conditioned,quantile_3_rolling_60,low_vol,rolling_volatility_60,univariate,32,2,1588,3000,2023-07-31 22:15:00+00:00,2023-08-15 15:15:00+00:00,0.19440566484886715,low_vol_0023,False

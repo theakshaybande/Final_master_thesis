@@ -1,0 +1,11 @@
+asset,frequency,mode,regime_method,regime_label,feature_set,profile_type,window_length,motif_rank,motif_start_1,motif_start_2,motif_timestamp_1,motif_timestamp_2,motif_distance,segment_id,used_gpu
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,1,131346,1757,2023-10-01 18:30:00+00:00,2020-01-19 07:15:00+00:00,0.09054871507358775,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,2,21326,138128,2020-08-10 18:15:00+00:00,2023-12-11 10:00:00+00:00,0.09165145448034172,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,3,20540,124724,2020-08-02 13:45:00+00:00,2023-07-24 19:00:00+00:00,0.11264864342696476,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,4,14731,132794,2020-06-02 22:00:00+00:00,2023-10-16 20:30:00+00:00,0.12038615942622313,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,5,27149,12468,2020-10-10 10:00:00+00:00,2020-05-10 08:15:00+00:00,0.12480770869314406,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,6,12416,19343,2020-05-09 19:15:00+00:00,2020-07-21 02:30:00+00:00,0.1317902885830375,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,7,78306,137335,2022-03-28 05:15:00+00:00,2023-12-03 03:45:00+00:00,0.1384320394704638,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,8,119161,133457,2023-05-27 20:15:00+00:00,2023-10-23 18:15:00+00:00,0.15109475205535564,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,9,93946,94600,2022-09-07 03:15:00+00:00,2022-09-13 22:45:00+00:00,0.15170952806833843,full_series,False
+BTCUSDT,15m,agnostic,none,all,rolling_volatility_60,univariate,32,10,94551,66062,2022-09-13 10:30:00+00:00,2021-11-20 16:15:00+00:00,0.15411021368012146,full_series,False

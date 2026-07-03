@@ -1,0 +1,8 @@
+name,rows,columns,timestamp_column,min_timestamp,max_timestamp,useful_columns
+quantile_labels,73097388,11,timestamp,2010-01-04 00:00:00+00:00,2025-12-31 23:59:00+00:00,"asset, frequency, regime_method, regime_label, timestamp, regime_code, rolling_window, n_regimes, volatility_column, volatility_value, thresholds"
+quantile_summary,432,12,min_timestamp,2010-01-04 00:00:00+00:00,2020-07-23 00:00:00+00:00,"asset, frequency, regime_method, regime_label, observations, share, mean_return, std_return, mean_rolling_vol, median_rolling_vol, min_timestamp, max_timestamp"
+quantile_transitions,1203,7,,,,"asset, frequency, regime_method, from_regime, to_regime, count, probability"
+hmm_labels,8121932,13,timestamp,2010-01-04 00:00:00+00:00,2025-12-31 23:59:00+00:00,"asset, frequency, regime_method, regime_label, feature_set, timestamp, raw_state, regime_confidence, selected_n_states, posterior_state_0, posterior_state_1, posterior_state_2"
+hmm_summary,62,12,min_timestamp,2010-01-04 00:00:00+00:00,2020-03-13 02:30:00+00:00,"asset, frequency, regime_method, regime_label, observations, share, mean_return, std_return, mean_rolling_vol, median_rolling_vol, min_timestamp, max_timestamp"
+hmm_transitions,205,7,,,,"asset, frequency, regime_method, from_regime, to_regime, count, probability"
+hmm_persistence,62,7,,,,"asset, frequency, regime_method, regime_label, raw_state, self_transition_probability, expected_duration_observations"

@@ -1,0 +1,10 @@
+Metric,Agnostic,Conditioned,Interpretation
+saved motif rows,720,81267,"Conditioned row counts are expected to be larger when searches are repeated across regimes, methods, and segments."
+median distance,1.8908302690794803,4.666110127255471,Lower values indicate closer motif-neighbour pairs within the saved results.
+q10 distance,0.37339542834965234,1.3818493958151157,Lower top-decile distances indicate stronger best-candidate similarity.
+best distance,0.08186115979462456,0.15923674663546197,Best observed saved motif distance.
+number of regimes represented,1,3,Conditioned discovery attaches motifs to market states.
+number of windows represented,9,9,Window-length coverage in the saved benchmark.
+number of feature sets represented,4,4,Feature coverage in the saved benchmark.
+runtime if available,706668.2743384736,14508.260072624777,Runtime is read from saved result rows when present.
+figure examples available,generated above when feature windows align,generated above when feature windows align,Visual support depends on available feature data and start indices.

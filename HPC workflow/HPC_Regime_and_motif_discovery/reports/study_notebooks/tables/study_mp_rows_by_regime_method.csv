@@ -1,0 +1,12 @@
+regime_method,rows
+quantile_2_rolling_240,15618
+quantile_2_rolling_60,15618
+quantile_2_rolling_30,15618
+quantile_3_rolling_60,6885
+quantile_3_rolling_30,6885
+quantile_3_rolling_240,6885
+quantile_4_rolling_240,4559
+quantile_4_rolling_30,4559
+quantile_4_rolling_60,4559
+none,720
+hmm_4_states,81

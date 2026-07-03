@@ -1,0 +1,17 @@
+asset,frequency,regime_label,rows
+ETHUSDT,15m,low_vol,17694
+BTCUSDT,15m,low_vol,15423
+ETHUSDT,15m,high_vol,13650
+BTCUSDT,15m,high_vol,12357
+BTCUSDT,1h,low_vol,5307
+ETHUSDT,1h,low_vol,4185
+BTCUSDT,15m,extreme_vol,2853
+BTCUSDT,1h,high_vol,2832
+ETHUSDT,1h,high_vol,2805
+ETHUSDT,15m,extreme_vol,2727
+BTCUSDT,1h,extreme_vol,774
+ETHUSDT,1h,extreme_vol,660
+ETHUSDT,1h,all,200
+BTCUSDT,1h,all,200
+BTCUSDT,15m,all,160
+ETHUSDT,15m,all,160

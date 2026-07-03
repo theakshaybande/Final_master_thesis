@@ -1,0 +1,11 @@
+asset,frequency,mode,regime_method,regime_label,feature_set,profile_type,window_length,motif_rank,motif_start_1,motif_start_2,motif_timestamp_1,motif_timestamp_2,motif_distance,segment_id,used_gpu
+BTCUSDT,1h,conditioned,quantile_4_rolling_240,extreme_vol,rolling_volatility_60,univariate,24,1,630,874,2021-01-28 18:00:00+00:00,2021-02-07 22:00:00+00:00,0.18948450877881706,extreme_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_30,extreme_vol,rolling_volatility_60,univariate,24,1,630,874,2021-01-28 18:00:00+00:00,2021-02-07 22:00:00+00:00,0.18948450877881706,extreme_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_60,extreme_vol,rolling_volatility_60,univariate,24,1,630,874,2021-01-28 18:00:00+00:00,2021-02-07 22:00:00+00:00,0.18948450877881706,extreme_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_240,extreme_vol,rolling_volatility_60,univariate,24,2,936,692,2021-02-10 12:00:00+00:00,2021-01-31 08:00:00+00:00,0.34282879343293043,extreme_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_30,extreme_vol,rolling_volatility_60,univariate,24,2,936,692,2021-02-10 12:00:00+00:00,2021-01-31 08:00:00+00:00,0.34282879343293043,extreme_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_60,extreme_vol,rolling_volatility_60,univariate,24,2,936,692,2021-02-10 12:00:00+00:00,2021-01-31 08:00:00+00:00,0.34282879343293043,extreme_vol_0002,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_30,extreme_vol,rolling_volatility_60,univariate,24,1,731,629,2021-06-08 23:00:00+00:00,2021-06-04 17:00:00+00:00,0.5039970482895142,extreme_vol_0003,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_240,extreme_vol,rolling_volatility_60,univariate,24,1,731,629,2021-06-08 23:00:00+00:00,2021-06-04 17:00:00+00:00,0.5039970482895142,extreme_vol_0003,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_60,extreme_vol,rolling_volatility_60,univariate,24,1,731,629,2021-06-08 23:00:00+00:00,2021-06-04 17:00:00+00:00,0.5039970482895142,extreme_vol_0003,False
+BTCUSDT,1h,conditioned,quantile_4_rolling_240,extreme_vol,rolling_volatility_60,univariate,24,3,37,211,2021-01-04 01:00:00+00:00,2021-01-11 07:00:00+00:00,0.515118097472955,extreme_vol_0002,False
