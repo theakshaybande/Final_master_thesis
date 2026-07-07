@@ -1,0 +1,12 @@
+{
+  "implementation": "locomotif.locomotif.apply_locomotif",
+  "package": "dtai-locomotif",
+  "mapping": {
+    "lmin": "l_min",
+    "lmax": "l_max",
+    "rho": "rho",
+    "max motif sets or nb": "nb",
+    "overlap": "overlap",
+    "warping enabled": "warping=True"
+  }
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\learn\OneDrive\Desktop\Final Masters Thesis\scripts\run_locomotif_controlled_slice_comparison.py", line 493, in run_locomotif
+    raise TimeoutError(f"Real LoCoMotif call exceeded {timeout_limit} seconds.")
+TimeoutError: Real LoCoMotif call exceeded 600 seconds.
