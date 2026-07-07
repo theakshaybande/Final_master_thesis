@@ -1,4 +1,6 @@
-Traceback (most recent call last):
-  File "C:\Users\learn\OneDrive\Desktop\Final Masters Thesis\scripts\run_locomotif_controlled_slice_comparison.py", line 416, in run_locomotif
-    raise TimeoutError(f"Real LoCoMotif call exceeded {LOCOMOTIF_TIMEOUT_SECONDS} seconds.")
-TimeoutError: Real LoCoMotif call exceeded 120 seconds.
+# stdout
+
+# stderr
+
+# repr(motif_sets)
+[((145, 160), [(np.int32(145), np.int32(160)), (np.int32(131), np.int32(141)), (np.int32(169), np.int32(188)), (np.int32(91), np.int32(100)), (np.int32(211), np.int32(226)), (np.int32(226), np.int32(242)), (np.int32(106), np.int32(118)), (np.int32(186), np.int32(203)), (np.int32(241), np.int32(270)), (np.int32(276), np.int32(292)), (np.int32(487), np.int32(498)), (np.int32(77), np.int32(87)), (np.int32(462), np.int32(472))]), ((307, 338), [(np.int32(307), np.int32(338)), (np.int32(377), np.int32(421)), (np.int32(420), np.int32(464)), (np.int32(351), np.int32(383))]), ((158, 170), [(np.int32(158), np.int32(170)), (np.int32(140), np.int32(146)), (np.int32(98), np.int32(105)), (np.int32(116), np.int32(128)), (np.int32(202), np.int32(209)), (np.int32(86), np.int32(93)), (np.int32(338), np.int32(348))])]

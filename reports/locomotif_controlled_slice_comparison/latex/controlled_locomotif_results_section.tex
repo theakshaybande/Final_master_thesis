@@ -6,59 +6,43 @@ This controlled experiment compares Matrix Profile and LoCoMotif on matched BTCU
 
 \subsection{Selected BTCUSDT Regime Slices}
 
-The agnostic\_1h slice used 150 observations from 2020-01-11T00:00:00+00:00 to 2020-01-17T05:00:00+00:00. The selection rule was first\_valid\_contiguous\_1h\_window\_after\_warmup, and the label source was agnostic.
+The agnostic\_1h slice used 300 observations from 2020-01-11T00:00:00+00:00 to 2020-01-23T11:00:00+00:00. The selection rule was first\_valid\_contiguous\_1h\_window\_after\_warmup, and the label source was agnostic.
 
-The high\_vol slice used 2000 observations from 2020-12-16T14:00:00+00:00 to 2021-01-06T14:30:00+00:00. The selection rule was longest\_contiguous\_high\_vol\_segment, and the label source was regenerated\_for\_controlled\_experiment.
+The high\_vol slice used 500 observations from 2020-12-16T14:00:00+00:00 to 2020-12-21T22:30:00+00:00. The selection rule was longest\_contiguous\_high\_vol\_segment, and the label source was regenerated\_for\_controlled\_experiment.
 
-The low\_vol slice used 2000 observations from 2025-06-25T07:45:00+00:00 to 2025-07-16T03:30:00+00:00. The selection rule was longest\_contiguous\_low\_vol\_segment, and the label source was regenerated\_for\_controlled\_experiment.
+The low\_vol slice used 500 observations from 2025-06-25T07:45:00+00:00 to 2025-06-30T12:30:00+00:00. The selection rule was longest\_contiguous\_low\_vol\_segment, and the label source was regenerated\_for\_controlled\_experiment.
 
 \subsection{LoCoMotif Motif-Set Evidence}
 
 LoCoMotif returns time-warped motif sets, so its counts are motif-set counts and occurrence counts rather than nearest-neighbour pair counts.
 
-For agnostic\_1h with feature close\_z and rho 0.65, LoCoMotif failed; runtime was nan seconds and 0 motif sets were recorded.
+For agnostic\_1h with feature close\_z and rho 0.65, LoCoMotif succeeded; runtime was 1.649134243838489 seconds and 3 motif sets were recorded.
 
-For high\_vol with feature close\_z and rho 0.65, LoCoMotif failed; runtime was nan seconds and 0 motif sets were recorded.
+For low\_vol with feature close\_z and rho 0.65, LoCoMotif succeeded; runtime was 1.5872423723340034 seconds and 3 motif sets were recorded.
 
-For low\_vol with feature close\_z and rho 0.65, LoCoMotif failed; runtime was nan seconds and 0 motif sets were recorded.
-
-For agnostic\_1h with feature close\_z and rho 0.65, LoCoMotif failed; runtime was nan seconds and 0 motif sets were recorded.
-
-For agnostic\_1h with feature close\_z and rho 0.65, LoCoMotif failed; runtime was nan seconds and 0 motif sets were recorded.
+For high\_vol with feature close\_z and rho 0.65, LoCoMotif succeeded; runtime was 1.6392561960965395 seconds and 3 motif sets were recorded.
 
 \subsection{Matrix Profile versus LoCoMotif on Matched Slices}
 
 Matrix Profile gives fixed-length nearest-neighbour motif pairs. LoCoMotif groups repeated occurrences that may be locally time-warped. The comparison therefore uses matched slices and matched normalized features, but does not treat raw counts as equivalent objects.
 
-For agnostic\_1h, the Matrix Profile run with window 24 had best distance 0.864456 and runtime 25.257 seconds.
+For agnostic\_1h, the Matrix Profile run with window 24 had best distance 1.097757 and runtime 20.955 seconds.
 
-For agnostic\_1h, the Matrix Profile run with window 48 had best distance 1.688181 and runtime 0.027 seconds.
+For agnostic\_1h, the Matrix Profile run with window 48 had best distance 2.741403 and runtime 0.277 seconds.
 
-For agnostic\_1h, the Matrix Profile run with window 72 had best distance 2.157387 and runtime 0.022 seconds.
+For agnostic\_1h, the Matrix Profile run with window 72 had best distance 3.405117 and runtime 0.001 seconds.
 
-For high\_vol, the Matrix Profile run with window 32 had best distance 1.259655 and runtime 24.867 seconds.
+For low\_vol, the Matrix Profile run with window 32 had best distance 1.451609 and runtime 19.471 seconds.
 
-For high\_vol, the Matrix Profile run with window 64 had best distance 1.777807 and runtime 0.031 seconds.
+For low\_vol, the Matrix Profile run with window 64 had best distance 2.592858 and runtime 0.002 seconds.
 
-For high\_vol, the Matrix Profile run with window 128 had best distance 3.206065 and runtime 0.030 seconds.
+For low\_vol, the Matrix Profile run with window 128 had best distance 7.683076 and runtime 0.002 seconds.
 
-For low\_vol, the Matrix Profile run with window 32 had best distance 1.014036 and runtime 25.294 seconds.
+For high\_vol, the Matrix Profile run with window 32 had best distance 1.546767 and runtime 20.005 seconds.
 
-For low\_vol, the Matrix Profile run with window 64 had best distance 1.862371 and runtime 0.028 seconds.
+For high\_vol, the Matrix Profile run with window 64 had best distance 2.716202 and runtime 0.002 seconds.
 
-For low\_vol, the Matrix Profile run with window 128 had best distance 2.578395 and runtime 0.028 seconds.
-
-For agnostic\_1h, the Matrix Profile run with window 24 had best distance 1.097757 and runtime 29.136 seconds.
-
-For agnostic\_1h, the Matrix Profile run with window 48 had best distance 2.741403 and runtime 0.005 seconds.
-
-For agnostic\_1h, the Matrix Profile run with window 72 had best distance 3.405117 and runtime 0.006 seconds.
-
-For agnostic\_1h, the Matrix Profile run with window 24 had best distance 1.097757 and runtime 33.039 seconds.
-
-For agnostic\_1h, the Matrix Profile run with window 48 had best distance 4.032607 and runtime 0.005 seconds.
-
-For agnostic\_1h, the Matrix Profile run with window 72 had best distance 6.213685 and runtime 0.006 seconds.
+For high\_vol, the Matrix Profile run with window 128 had best distance 6.915562 and runtime 0.002 seconds.
 
 \subsection{Interpretation for Research Question 3}
 

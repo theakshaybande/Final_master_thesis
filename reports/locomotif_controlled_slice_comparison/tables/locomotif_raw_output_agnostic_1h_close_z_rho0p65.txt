@@ -1,4 +1,6 @@
-Traceback (most recent call last):
-  File "C:\Users\learn\OneDrive\Desktop\Final Masters Thesis\scripts\run_locomotif_controlled_slice_comparison.py", line 493, in run_locomotif
-    raise TimeoutError(f"Real LoCoMotif call exceeded {timeout_limit} seconds.")
-TimeoutError: Real LoCoMotif call exceeded 600 seconds.
+# stdout
+
+# stderr
+
+# repr(motif_sets)
+[((128, 145), [(np.int32(128), np.int32(145)), (np.int32(114), np.int32(131)), (np.int32(278), np.int32(294)), (np.int32(103), np.int32(114)), (np.int32(248), np.int32(266)), (np.int32(233), np.int32(251)), (np.int32(211), np.int32(233)), (np.int32(87), np.int32(102))]), ((16, 29), [(np.int32(16), np.int32(29)), (np.int32(0), np.int32(11)), (np.int32(38), np.int32(57)), (np.int32(56), np.int32(72))]), ((177, 191), [(np.int32(177), np.int32(191)), (np.int32(166), np.int32(175)), (np.int32(154), np.int32(162))])]

@@ -7,10 +7,10 @@
     "regime_method": "agnostic",
     "regime_label": "agnostic",
     "start_timestamp": "2020-01-11T00:00:00+00:00",
-    "end_timestamp": "2020-01-17T05:00:00+00:00",
-    "n_observations": 150,
+    "end_timestamp": "2020-01-23T11:00:00+00:00",
+    "n_observations": 300,
     "selection_rule": "first_valid_contiguous_1h_window_after_warmup",
-    "max_points": 150,
+    "max_points": 300,
     "feature_columns": [
       "close_z",
       "log_return_z",
@@ -29,17 +29,17 @@
     "regime_method": "quantile_2_rolling_240",
     "regime_label": "high_vol",
     "start_timestamp": "2020-12-16T14:00:00+00:00",
-    "end_timestamp": "2021-01-06T14:30:00+00:00",
-    "n_observations": 2000,
+    "end_timestamp": "2020-12-21T22:30:00+00:00",
+    "n_observations": 500,
     "selection_rule": "longest_contiguous_high_vol_segment",
-    "max_points": 2000,
+    "max_points": 500,
     "feature_columns": [
       "close_z",
       "log_return_z",
       "rolling_volatility_60_z"
     ],
     "source_data_file": "final_dataset/features/crypto/BTCUSDT_15m_features_2020_2025.parquet",
-    "regime_label_source": "C:\\Users\\learn\\OneDrive\\Desktop\\Final Masters Thesis\\reports\\locomotif_controlled_slice_comparison\\tables\\btcusdt_15m_quantile2rolling240_regenerated_labels.csv",
+    "regime_label_source": "/home/i6404275/Final_master_thesis/reports/locomotif_controlled_slice_comparison/tables/btcusdt_15m_quantile2rolling240_regenerated_labels.csv",
     "regime_label_status": "regenerated_for_controlled_experiment",
     "notes": "Contiguous chronological slice; no non-contiguous regime concatenation."
   },
@@ -51,17 +51,17 @@
     "regime_method": "quantile_2_rolling_240",
     "regime_label": "low_vol",
     "start_timestamp": "2025-06-25T07:45:00+00:00",
-    "end_timestamp": "2025-07-16T03:30:00+00:00",
-    "n_observations": 2000,
+    "end_timestamp": "2025-06-30T12:30:00+00:00",
+    "n_observations": 500,
     "selection_rule": "longest_contiguous_low_vol_segment",
-    "max_points": 2000,
+    "max_points": 500,
     "feature_columns": [
       "close_z",
       "log_return_z",
       "rolling_volatility_60_z"
     ],
     "source_data_file": "final_dataset/features/crypto/BTCUSDT_15m_features_2020_2025.parquet",
-    "regime_label_source": "C:\\Users\\learn\\OneDrive\\Desktop\\Final Masters Thesis\\reports\\locomotif_controlled_slice_comparison\\tables\\btcusdt_15m_quantile2rolling240_regenerated_labels.csv",
+    "regime_label_source": "/home/i6404275/Final_master_thesis/reports/locomotif_controlled_slice_comparison/tables/btcusdt_15m_quantile2rolling240_regenerated_labels.csv",
     "regime_label_status": "regenerated_for_controlled_experiment",
     "notes": "Contiguous chronological slice; no non-contiguous regime concatenation."
   }
