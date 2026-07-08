@@ -2,11 +2,11 @@
 
 VIX is used as a broad external market-stress proxy, not as a crypto-specific volatility label. No generated text treats VIX as a training label or causal driver of crypto motifs.
 
-Figures generated: 157
+Figures generated: 229
 Tables generated: 10
 
 ## Controlled LoCoMotif status
-The controlled LoCoMotif runtime CSV records timeouts and zero filtered motif sets for the controlled slice runs; no controlled LoCoMotif occurrences were fabricated.
+Controlled LoCoMotif machine-readable status did not record timeouts.
 
 ## Key figures
 - `reports/final_visual_evidence/figures/algorithm_complexity_tradeoff_summary.png`
@@ -27,15 +27,27 @@ The controlled LoCoMotif runtime CSV records timeouts and zero filtered motif se
 - `reports/final_visual_evidence/figures/motif_03_locomotif_btcusdt_15m_high_vol_1_0_1_0_context.png`
 - `reports/final_visual_evidence/figures/motif_03_locomotif_btcusdt_15m_high_vol_1_0_1_0_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_03_locomotif_btcusdt_15m_high_vol_1_0_1_0_zoom.png`
+- `reports/final_visual_evidence/figures/motif_03_locomotif_btcusdt_15m_high_vol_nan_nan_context.png`
+- `reports/final_visual_evidence/figures/motif_03_locomotif_btcusdt_15m_high_vol_nan_nan_normal_pattern.png`
+- `reports/final_visual_evidence/figures/motif_03_locomotif_btcusdt_15m_high_vol_nan_nan_zoom.png`
 - `reports/final_visual_evidence/figures/motif_04_locomotif_btcusdt_15m_high_vol_1_0_3_0_context.png`
 - `reports/final_visual_evidence/figures/motif_04_locomotif_btcusdt_15m_high_vol_1_0_3_0_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_04_locomotif_btcusdt_15m_high_vol_1_0_3_0_zoom.png`
+- `reports/final_visual_evidence/figures/motif_04_locomotif_btcusdt_15m_high_vol_nan_nan_context.png`
+- `reports/final_visual_evidence/figures/motif_04_locomotif_btcusdt_15m_high_vol_nan_nan_normal_pattern.png`
+- `reports/final_visual_evidence/figures/motif_04_locomotif_btcusdt_15m_high_vol_nan_nan_zoom.png`
 - `reports/final_visual_evidence/figures/motif_05_locomotif_btcusdt_15m_low_vol_1_0_1_0_context.png`
 - `reports/final_visual_evidence/figures/motif_05_locomotif_btcusdt_15m_low_vol_1_0_1_0_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_05_locomotif_btcusdt_15m_low_vol_1_0_1_0_zoom.png`
+- `reports/final_visual_evidence/figures/motif_05_locomotif_btcusdt_15m_low_vol_nan_nan_context.png`
+- `reports/final_visual_evidence/figures/motif_05_locomotif_btcusdt_15m_low_vol_nan_nan_normal_pattern.png`
+- `reports/final_visual_evidence/figures/motif_05_locomotif_btcusdt_15m_low_vol_nan_nan_zoom.png`
 - `reports/final_visual_evidence/figures/motif_06_locomotif_btcusdt_15m_low_vol_1_0_3_0_context.png`
 - `reports/final_visual_evidence/figures/motif_06_locomotif_btcusdt_15m_low_vol_1_0_3_0_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_06_locomotif_btcusdt_15m_low_vol_1_0_3_0_zoom.png`
+- `reports/final_visual_evidence/figures/motif_06_locomotif_btcusdt_15m_low_vol_nan_nan_context.png`
+- `reports/final_visual_evidence/figures/motif_06_locomotif_btcusdt_15m_low_vol_nan_nan_normal_pattern.png`
+- `reports/final_visual_evidence/figures/motif_06_locomotif_btcusdt_15m_low_vol_nan_nan_zoom.png`
 - `reports/final_visual_evidence/figures/motif_07_locomotif_btcusdt_1h_agnostic_nan_nan_context.png`
 - `reports/final_visual_evidence/figures/motif_07_locomotif_btcusdt_1h_agnostic_nan_nan_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_07_locomotif_btcusdt_1h_agnostic_nan_nan_zoom.png`
@@ -45,30 +57,18 @@ The controlled LoCoMotif runtime CSV records timeouts and zero filtered motif se
 - `reports/final_visual_evidence/figures/motif_09_locomotif_ethusdt_1h_agnostic_nan_nan_context.png`
 - `reports/final_visual_evidence/figures/motif_09_locomotif_ethusdt_1h_agnostic_nan_nan_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_09_locomotif_ethusdt_1h_agnostic_nan_nan_zoom.png`
+- `reports/final_visual_evidence/figures/motif_09_matrix_profile_btcusdt_15m_all_1_0_pair35_1_context.png`
+- `reports/final_visual_evidence/figures/motif_09_matrix_profile_btcusdt_15m_all_1_0_pair35_1_normal_pattern.png`
+- `reports/final_visual_evidence/figures/motif_09_matrix_profile_btcusdt_15m_all_1_0_pair35_1_zoom.png`
 - `reports/final_visual_evidence/figures/motif_10_locomotif_ethusdt_1h_agnostic_nan_nan_context.png`
 - `reports/final_visual_evidence/figures/motif_10_locomotif_ethusdt_1h_agnostic_nan_nan_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_10_locomotif_ethusdt_1h_agnostic_nan_nan_zoom.png`
+- `reports/final_visual_evidence/figures/motif_10_matrix_profile_btcusdt_15m_all_1_0_pair35_2_context.png`
+- `reports/final_visual_evidence/figures/motif_10_matrix_profile_btcusdt_15m_all_1_0_pair35_2_normal_pattern.png`
+- `reports/final_visual_evidence/figures/motif_10_matrix_profile_btcusdt_15m_all_1_0_pair35_2_zoom.png`
 - `reports/final_visual_evidence/figures/motif_11_matrix_profile_btcusdt_15m_all_1_0_pair21_1_context.png`
 - `reports/final_visual_evidence/figures/motif_11_matrix_profile_btcusdt_15m_all_1_0_pair21_1_normal_pattern.png`
 - `reports/final_visual_evidence/figures/motif_11_matrix_profile_btcusdt_15m_all_1_0_pair21_1_zoom.png`
-- `reports/final_visual_evidence/figures/motif_12_matrix_profile_btcusdt_15m_all_1_0_pair21_2_context.png`
-- `reports/final_visual_evidence/figures/motif_12_matrix_profile_btcusdt_15m_all_1_0_pair21_2_normal_pattern.png`
-- `reports/final_visual_evidence/figures/motif_12_matrix_profile_btcusdt_15m_all_1_0_pair21_2_zoom.png`
-- `reports/final_visual_evidence/figures/motif_13_matrix_profile_btcusdt_15m_high_vol_1_0_pair75_1_context.png`
-- `reports/final_visual_evidence/figures/motif_13_matrix_profile_btcusdt_15m_high_vol_1_0_pair75_1_normal_pattern.png`
-- `reports/final_visual_evidence/figures/motif_13_matrix_profile_btcusdt_15m_high_vol_1_0_pair75_1_zoom.png`
-- `reports/final_visual_evidence/figures/motif_14_matrix_profile_btcusdt_15m_high_vol_1_0_pair75_2_context.png`
-- `reports/final_visual_evidence/figures/motif_14_matrix_profile_btcusdt_15m_high_vol_1_0_pair75_2_normal_pattern.png`
-- `reports/final_visual_evidence/figures/motif_14_matrix_profile_btcusdt_15m_high_vol_1_0_pair75_2_zoom.png`
-- `reports/final_visual_evidence/figures/motif_15_matrix_profile_btcusdt_15m_low_vol_nan_pair7_1_context.png`
-- `reports/final_visual_evidence/figures/motif_15_matrix_profile_btcusdt_15m_low_vol_nan_pair7_1_normal_pattern.png`
-- `reports/final_visual_evidence/figures/motif_15_matrix_profile_btcusdt_15m_low_vol_nan_pair7_1_zoom.png`
-- `reports/final_visual_evidence/figures/motif_16_matrix_profile_btcusdt_15m_low_vol_nan_pair7_2_context.png`
-- `reports/final_visual_evidence/figures/motif_16_matrix_profile_btcusdt_15m_low_vol_nan_pair7_2_normal_pattern.png`
-- `reports/final_visual_evidence/figures/motif_16_matrix_profile_btcusdt_15m_low_vol_nan_pair7_2_zoom.png`
-- `reports/final_visual_evidence/figures/motif_17_matrix_profile_btcusdt_1h_agnostic_nan_pair1_1_context.png`
-- `reports/final_visual_evidence/figures/motif_17_matrix_profile_btcusdt_1h_agnostic_nan_pair1_1_normal_pattern.png`
-- `reports/final_visual_evidence/figures/motif_17_matrix_profile_btcusdt_1h_agnostic_nan_pair1_1_zoom.png`
 
 ## Key tables
 - `reports/final_visual_evidence/tables/algorithm_complexity_summary.csv`
