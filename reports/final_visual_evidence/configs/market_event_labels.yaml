@@ -1,0 +1,27 @@
+- month: 2020-03
+  label: "COVID-19 crash / global risk-off"
+  caveat: "approximate context only; not a causal label"
+- month: 2021-05
+  label: "crypto market drawdown"
+  caveat: "approximate context only; not a causal label"
+- month: 2021-11
+  label: "crypto peak / reversal period"
+  caveat: "approximate context only; not a causal label"
+- month: 2022-05
+  label: "Terra/Luna and crypto stress period"
+  caveat: "approximate context only; not a causal label"
+- month: 2022-06
+  label: "crypto deleveraging / Celsius stress period"
+  caveat: "approximate context only; not a causal label"
+- month: 2022-11
+  label: "FTX collapse period"
+  caveat: "approximate context only; not a causal label"
+- month: 2023-03
+  label: "banking stress period"
+  caveat: "approximate context only; not a causal label"
+- month: 2024-03
+  label: "crypto rally / ETF-flow period"
+  caveat: "approximate context only; not a causal label"
+- month: 2025-06
+  label: "recent low-vol / post-rally observation period"
+  caveat: "approximate context only; not a causal label"

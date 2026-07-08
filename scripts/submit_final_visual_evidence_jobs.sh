@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euo pipefail
+
+sbatch slurm/run_final_mp_locomotif_visual_comparison.slurm
+sbatch slurm/run_final_motif_candlestick_event_context.slurm
+sbatch slurm/run_final_top_motif_gallery_and_clustering.slurm
+sbatch slurm/run_final_visual_evidence_summary.slurm

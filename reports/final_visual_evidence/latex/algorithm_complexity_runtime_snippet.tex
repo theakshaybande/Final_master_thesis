@@ -1,0 +1,15 @@
+\begin{table}[ht]
+\centering
+\caption{Algorithmic complexity and runtime evidence summary.}
+\begin{tabular}{p{0.22\linewidth}p{0.34\linewidth}p{0.34\linewidth}}
+\hline
+Method & Scaling summary & Thesis interpretation \\
+\hline
+Matrix Profile univariate & optimized all-pairs subsequence similarity; scalable for fixed m & strong baseline for fixed-length motif search \\
+Matrix Profile multivariate & more expensive because multiple channels and dimension combinations are evaluated & useful but costlier for rich feature spaces \\
+LoCoMotif & runtime sensitive to slice length and motif-set search settings & more interpretable recurrence object when successful \\
+regime detection quantile & cheap rolling-statistic thresholding & transparent conditioning mechanism \\
+HMM regime detection & requires fitting and model selection & adds probabilistic regime modelling \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+\section{Final Visual Evidence for Motif Interpretability}
+
+\subsection{Candlestick Context for Discovered Motifs}
+Candlestick figures connect discovered motif intervals back to original OHLC price behaviour. Each shaded interval marks the motif window, while the surrounding context panel shows whether the pattern appears inside a local trend, consolidation, reversal, or high-range episode. Where OHLC columns are available, candlesticks are used; otherwise the workflow records a close-line fallback in the figure index.
+
+\subsection{VIX and Market-Stress Context}
+VIX is used as a broad external market-stress proxy, not as a crypto-specific volatility label. Crypto motifs are not trained on VIX. Motif timestamps are aligned to the nearest previous VIX daily close and summarized by full-sample VIX percentile regimes. 30 motif occurrences were written to the VIX context table.
+
+\subsection{Matrix Profile and LoCoMotif Visual Comparison}
+Matrix Profile and LoCoMotif output different motif objects. Matrix Profile returns fixed-length nearest-neighbour pairs with distances; LoCoMotif returns time-warped motif sets with multiple occurrences when the run succeeds. Counts are therefore not directly equivalent. The controlled LoCoMotif runtime CSV records timeouts and zero filtered motif sets for the controlled slice runs; no controlled LoCoMotif occurrences were fabricated.
+
+\subsection{Runtime Efficiency and Method Trade-Offs}
+The runtime and complexity figures compare empirical runtime evidence with qualitative scaling. Matrix Profile is scalable for fixed-length search using optimized algorithms; multivariate MP is more expensive because it evaluates multiple channels. LoCoMotif adds time-warping and motif-set recurrence but is sensitive to slice length and parameters such as lmin, lmax, rho, and the number of motif sets.
