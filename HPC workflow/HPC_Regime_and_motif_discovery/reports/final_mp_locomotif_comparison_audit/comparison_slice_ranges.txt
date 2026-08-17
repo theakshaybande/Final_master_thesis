@@ -1,0 +1,21 @@
+
+FILE: ../../reports/locomotif_controlled_slice_comparison/tables/btcusdt_1h_agnostic_slice_input.csv
+rows: 300
+columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'quote_volume', 'number_of_trades', 'taker_buy_base_volume', 'taker_buy_quote_volume', 'close_time', 'log_return', 'abs_log_return', 'pct_return', 'hl_range', 'rolling_volatility_30', 'rolling_volatility_60', 'rolling_volatility_240', 'volume_zscore', 'regime_method', 'regime_label', 'close_z', 'log_return_z', 'rolling_volatility_60_z']
+timestamp_column: timestamp
+start: 2020-01-11 00:00:00+00:00
+end: 2020-01-23 11:00:00+00:00
+
+FILE: ../../reports/locomotif_controlled_slice_comparison/tables/btcusdt_15m_high_vol_slice_input.csv
+rows: 500
+columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'quote_volume', 'number_of_trades', 'taker_buy_base_volume', 'taker_buy_quote_volume', 'close_time', 'log_return', 'abs_log_return', 'pct_return', 'hl_range', 'rolling_volatility_30', 'rolling_volatility_60', 'rolling_volatility_240', 'volume_zscore', 'regime_method', 'regime_label', 'rolling_volatility_240_label', 'volatility_threshold_q50', 'close_z', 'log_return_z', 'rolling_volatility_60_z']
+timestamp_column: timestamp
+start: 2020-12-16 14:00:00+00:00
+end: 2020-12-21 22:30:00+00:00
+
+FILE: ../../reports/locomotif_controlled_slice_comparison/tables/btcusdt_15m_low_vol_slice_input.csv
+rows: 500
+columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume', 'quote_volume', 'number_of_trades', 'taker_buy_base_volume', 'taker_buy_quote_volume', 'close_time', 'log_return', 'abs_log_return', 'pct_return', 'hl_range', 'rolling_volatility_30', 'rolling_volatility_60', 'rolling_volatility_240', 'volume_zscore', 'regime_method', 'regime_label', 'rolling_volatility_240_label', 'volatility_threshold_q50', 'close_z', 'log_return_z', 'rolling_volatility_60_z']
+timestamp_column: timestamp
+start: 2025-06-25 07:45:00+00:00
+end: 2025-06-30 12:30:00+00:00
