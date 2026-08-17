@@ -1,0 +1,68 @@
+random_seed: 42
+baseline_repetitions: 2000
+minimum_inference_n: 10
+
+horizons:
+  15m:
+    1h: 4
+    4h: 16
+    12h: 48
+    24h: 96
+  1h:
+    1h: 1
+    4h: 4
+    12h: 12
+    24h: 24
+
+bootstrap:
+  enabled: true
+  repetitions: 2000
+  block_length: auto
+
+agreement_iou_thresholds:
+  - 0.25
+  - 0.50
+
+invalid_interval_policy: error
+
+expected_slice_metadata:
+  agnostic_1h:
+    rows: 300
+    start: "2020-01-11 00:00:00+00:00"
+    end: "2020-01-23 11:00:00+00:00"
+  high_vol:
+    rows: 500
+    start: "2020-12-16 14:00:00+00:00"
+    end: "2020-12-21 22:30:00+00:00"
+  low_vol:
+    rows: 500
+    start: "2025-06-25 07:45:00+00:00"
+    end: "2025-06-30 12:30:00+00:00"
+
+inputs:
+  controlled_table_dir: ../../reports/locomotif_controlled_slice_comparison/tables
+  bib_file: ../../Final Report/Final_Thesis/report.bib
+  slices:
+    agnostic_1h:
+      asset: BTCUSDT
+      frequency: 1h
+      regime_label: agnostic
+      slice_input: btcusdt_1h_agnostic_slice_input.csv
+      primary_mp_window: 24
+      locomotif_raw_output: locomotif_raw_output_agnostic_1h_close_z_rho0p65.txt
+    high_vol:
+      asset: BTCUSDT
+      frequency: 15m
+      regime_label: high_vol
+      slice_input: btcusdt_15m_high_vol_slice_input.csv
+      primary_mp_window: 32
+      locomotif_raw_output: locomotif_raw_output_high_vol_close_z_rho0p65.txt
+    low_vol:
+      asset: BTCUSDT
+      frequency: 15m
+      regime_label: low_vol
+      slice_input: btcusdt_15m_low_vol_slice_input.csv
+      primary_mp_window: 32
+      locomotif_raw_output: locomotif_raw_output_low_vol_close_z_rho0p65.txt
+
+output_dir: reports/final_motif_evaluation
